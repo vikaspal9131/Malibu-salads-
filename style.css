@@ -1,23 +1,23 @@
 
 @keyframes rotate{
   0%{
-    transform: rotate(0deg);
-  }
-  50%{
     transform: rotate(180deg);
   }
-  100%{
+  50%{
     transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(180deg);
   }
 }
 
 body{
-  background-color:#dee2ee ;
+  background-color:#f0eeee;
 }
 .main{
   height: 97vh;  
   width: 98vw;
-  background-color: #dee2ee;
+  background-color: #f0eeee;
 }
 
 .nav{
@@ -138,9 +138,9 @@ body{
  }
 
 .hero-page .image{
-  width: 65%;
-  height: 63%;
-  background-color: #bdc7b7;  
+  width: 60%;
+  height: 60%;
+  background-color: #e6d5d5;  
   /* overflow: hidden;   */
   margin-top: 0.8vw;
   display: flex;
@@ -197,7 +197,7 @@ body{
 
 .part1-btn button{
   font-size: 1.1vw;
-  background-color: #dee2ee;
+  background-color: #f0eeee;
   border: none;
   font-weight: 600;
   width: 6vw ;
@@ -224,7 +224,7 @@ body{
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  background-image: linear-gradient(  320deg , #ffffff , #ffffff, #dee2ee, #dee2ee );
+  background-image: linear-gradient(  320deg , #ffffff , #ffffff, #f0eeee, #f0eeee );
   
 }
 
@@ -293,7 +293,7 @@ i{
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
-  background-image: linear-gradient(  320deg , #ffffff , #ffffff, #dee2ee, #dee2ee );
+  background-image: linear-gradient(  320deg , #ffffff , #ffffff, #f0eeee, #f0eeee );
   
 }
 .manu-page2 h2{
@@ -323,13 +323,16 @@ i{
 }
 
 .arrow{
-  height: 9vw;
+  
+  height: 5vw;
   width: 50%;
   /* background: royalblue; */
   object-fit: cover;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 2vw;
+  margin-left: 2vw;
 }
 
 .arrow img{
